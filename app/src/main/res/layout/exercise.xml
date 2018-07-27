@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="fill_parent"
+        android:background="#eb8f35"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Steps"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:textSize="40sp"
+            android:id="@+id/steps"
+            android:hint="-"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Calories"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:textSize="40sp"
+            android:id="@+id/calories"
+            android:hint="-"
+            android:singleLine="true" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Distance"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:textSize="40sp"
+            android:id="@+id/distance"
+            android:hint="-"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#822c5f"
+        android:weightSum="3"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/speed"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/start"
+            android:background="#4cb9a2"
+            android:layout_weight="1"
+            android:text="Start"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reset"
+            android:background="#4cb9a2"
+            android:layout_weight="1"
+            android:text="Reset"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

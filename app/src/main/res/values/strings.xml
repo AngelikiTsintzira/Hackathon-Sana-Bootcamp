@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SANA</string>
+    <string name="start">START</string>
+    <string name="reset">RESET</string>
+</resources>
