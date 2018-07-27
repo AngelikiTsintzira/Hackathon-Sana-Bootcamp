@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#35ebad">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/height"
+        android:hint="Height"
+        android:textSize="40sp"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#34495e"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weight"
+        android:hint="Weight"
+        android:textSize="40sp"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/height"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#34495e"
+        />
+
+
+
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:id="@+id/add_user"
+        android:text="Save"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="#34495e"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/axilleas/Downloads/SANA/app/src/main/res/layout/activity_main.xml -->
